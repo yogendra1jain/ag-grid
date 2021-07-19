@@ -1,0 +1,22 @@
+{
+    "MetaData": {
+        "group": "FullName",
+        "groupHeaderName": "Full Name",
+        "groupColumns": [
+            {
+                "field": "firstName",
+                "headerName": "First Name"
+            },
+            {
+                "field": "lastname",
+                "headerName": "Last Name"
+            }
+        ]
+    },
+    "Data": [
+        {
+            "firstName": "Yogendra",
+            "lastName": "Jain"
+        }
+    ]
+}

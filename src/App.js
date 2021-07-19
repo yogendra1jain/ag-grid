@@ -141,3 +141,5 @@ const GridExample = () => {
   );
 };
 export default GridExample
+
+//{columns.map(column => (<AgGridColumn {...column} key={column.field} />))}
