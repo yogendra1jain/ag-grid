@@ -1,22 +1,72 @@
 {
-    "MetaData": {
-        "group": "FullName",
-        "groupHeaderName": "Full Name",
-        "groupColumns": [
-            {
-                "field": "firstName",
-                "headerName": "First Name"
-            },
-            {
-                "field": "lastname",
-                "headerName": "Last Name"
-            }
-        ]
-    },
-    "Data": [
+    "Id": "RTADashboard",
+    "Label": "RTA Dashboard",
+    "Child": [
         {
-            "firstName": "Yogendra",
-            "lastName": "Jain"
+            "Id": "Medal",
+            "Label": "Meta Data",
+            "Child": [
+                {
+                    "Id": "gold",
+                    "Label": "Gold"
+                },
+                {
+                    "Id": "silver",
+                    "Label": "Silver"
+                },
+                {
+                    "Id": "bronze",
+                    "Label": "Bronze"
+                },
+                {
+                    "Id": "total",
+                    "Label": "Total"
+                }
+            ]
+        },
+        {
+            "Id": "AtheleteMeta",
+            "Label": "Daily Report",
+            "Child": [
+                {
+                    "Id": "AtheleteMetaPersonal",
+                    "Label": "RTA Investor Team",
+                    "Child": [
+                        {
+                            "Id": "athlete",
+                            "Label": "User"
+                        },
+                        {
+                            "Id": "age",
+                            "Label": "User Check Status"
+                        },
+                        {
+                            "Id": "country",
+                            "Label": "World Check User"
+                        },
+                        {
+                            "Id": "year",
+                            "Label": "World Check"
+                        }
+                    ]
+                },
+                {
+                    "Id": "AtheleMedalMeta",
+                    "Label": "RTA Compliance Team",
+                    "Child": [
+                        {
+                            "Id": "date",
+                            "Label": "Date",
+                            "filter": true,
+                            "floatingFilter": true
+                        },
+                        {
+                            "Id": "sport",
+                            "Label": "Aport"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
