@@ -42,7 +42,9 @@
                         },
                         {
                             "Id": "country",
-                            "Label": "World Check User"
+                            "Label": "World Check User",
+                            "filter": true,
+                            "floatingFilter": true
                         },
                         {
                             "Id": "year",
@@ -56,9 +58,7 @@
                     "Child": [
                         {
                             "Id": "date",
-                            "Label": "Date",
-                            "filter": true,
-                            "floatingFilter": true
+                            "Label": "Date"
                         },
                         {
                             "Id": "sport",
